@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Lato:ital,wght@0,400;0,700;0,900;1,700&display=swap');
+/* font-family: 'Inconsolata', monospace; */
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+/* font-family: 'Space Mono', monospace; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Space Mono', monospace;
+}
+.nav-p {
+  color: #333;
+  font-family: Inconsolata;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -1.92px;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+main {
+  margin-top: 150px;
+  margin-left: 50px;
+  margin-right: 100px;
+  display: flex;
+}
+.main-left-section {
+  width: 750px;
+}
+.main-left-section img {
+  width: 100%;
+}
+.main-right-section {
+  margin-left: 118px;
+  margin-right: 119px;
+}
+h1 {
+  color: #333;
+  font-size: 64px;
+  font-weight: 700;
+  letter-spacing: -2.24px;
+}
+.main-left-p {
+  color: #4f4f4f;
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: -0.84px;
+  margin-top: 36px;
+  margin-bottom: 64px;
+}
+
+.btn {
+  border: none;
+  padding: 20px 40px;
+  background: #333;
+  color: #fff;
+  font-family: 'Space Mono', monospace;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: -0.49px;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 576px) {
+  main {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 24px;
+  }
+  .nav-p {
+    margin-top: 20px;
+    margin-left: 24px;
+    margin-bottom: 64px;
+  }
+  .main-right-section {
+    margin-left: 24px;
+    margin-right: 0px;
+  }
+  h1 {
+    margin-top: 70px;
+    font-size: 48px;
+    letter-spacing: -1.68px;
+  }
+  .main-left-section {
+    width: 100%;
+  }
+  .main-left-section img {
+    width: 100%;
+  }
+  .main-left-p {
+    font-size: 18px;
+    letter-spacing: -0.63px;
+  }
+}
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+  main {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 24px;
+  }
+  .nav-p {
+    margin-top: 20px;
+    margin-left: 24px;
+    margin-bottom: 64px;
+  }
+  .main-right-section {
+    margin-left: 24px;
+    margin-right: 0px;
+  }
+  h1 {
+    margin-top: 70px;
+    font-size: 52px;
+    letter-spacing: -2px;
+  }
+  .main-left-section {
+    width: 100%;
+  }
+  .main-left-section img {
+    width: 100%;
+  }
+  .main-left-p {
+    font-size: 20px;
+    letter-spacing: -0.7px;
+  }
+}
